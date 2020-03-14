@@ -14,7 +14,7 @@ kaggle.api.dataset_download_files('imdevskp/corona-virus-report', path='/Users/y
 
 # git add and commit
 
-filename = 'covid_19_clean_complete'
+filename = ' covid_19_clean_complete.csv'
 os.system('git add' + filename )
 os.system("git commit -m 'updated data' ")
 os.system('git push origin master')
